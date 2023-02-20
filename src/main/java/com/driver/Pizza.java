@@ -50,7 +50,7 @@ public class Pizza {
     public void addExtraCheese(){
         // your code goes here
         if(!isExtraCheeseAdded){
-            this.price += this.cheese;
+            this.price += cheese;
             isExtraCheeseAdded=true;
         }
 
@@ -60,7 +60,7 @@ public class Pizza {
         // your code goes here
 
         if(!isExtraToppingAdded){
-            this.price += this.extraTopping;
+            this.price += extraTopping;
             isExtraToppingAdded=true;
         }
     }
